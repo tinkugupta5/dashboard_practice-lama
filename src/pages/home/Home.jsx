@@ -11,7 +11,6 @@ const Home = () => {
       <div className="homeContainer">
         <Navbar />
         <div className="widgets">
-          {/* <Widget type="widgets" /> */}
           <Widget type="user" />
           <Widget type="order" />
           <Widget type="earning" />

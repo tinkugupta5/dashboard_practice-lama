@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Login from "./pages/login/login";
-import List from "./pages/list/list";
 import Single from "./pages/single/Single";
 import New from "./pages/new/New";
+import List from "./pages/list/List";
 
 function App() {
   return (
@@ -14,7 +14,31 @@ function App() {
             <Route index element={<Home />} />
             <Route path="login" element={<Login />} />
             <Route path="users">
-              <Route index element={<List />} />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+              <Route index element={<List/>} />
               <Route path=":userId" element={<Single />} />
               <Route path="new" element={<New />} />
             </Route>
